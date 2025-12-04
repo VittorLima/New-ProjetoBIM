@@ -1,0 +1,12 @@
+[ req ]
+default_bits       = 2048
+distinguished_name = req_distinguished_name
+prompt             = no
+
+[ req_distinguished_name ]
+C  = BR
+ST = Estado
+L  = Cidade
+O  = Empresa
+OU = Departamento
+CN = localhost
